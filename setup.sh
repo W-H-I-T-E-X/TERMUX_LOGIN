@@ -1,4 +1,6 @@
 #!/bin/bash
+apt install python -y
+pip install lolcat
 pkg upgrade -y
 clear
 echo " "
@@ -61,7 +63,6 @@ echo -e "==========================================================
 " |lolcat
 sleep 3.5
 clear
-pip install lolcat
 cp /data/data/com.termux/files/home/TERMUX_LOGIN/login.py cd ../usr/etc/
 cd ../usr/etc
 rm motd
