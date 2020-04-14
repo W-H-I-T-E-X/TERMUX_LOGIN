@@ -62,7 +62,7 @@ echo -e "==========================================================
 sleep 3.5
 clear
 pip install lolcat
-cp /data/data/com.termux/files/home/login.py cd ../usr/etc/
+cp /data/data/com.termux/files/home/TERMUX_LOGIN/login.py cd ../usr/etc/
 cd ../usr/etc
 rm motd
 cp bash.bashrc /sdcard
@@ -80,7 +80,7 @@ echo -e "==========================================================
 " |lolcat
 sleep 3.5
 clear
-cp /data/data/com.termux/files/home/bash.bashrc cd ../usr/etc/
+cp /data/data/com.termux/files/home/TERMUX_LOGIN/bash.bashrc cd ../usr/etc/
 clear
 toilet -f mono12 3 |lolcat
 sleep 1.5
