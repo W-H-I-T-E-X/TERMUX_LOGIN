@@ -70,6 +70,7 @@ cd
 cp /data/data/com.termux/files/home/login.py cd ../usr/etc/
 cd ../usr/etc
 rm motd
+chmod +x login.py
 cp bash.bashrc /sdcard
 rm bash.bashrc
 cd
