@@ -67,10 +67,9 @@ cd TERMUX_LOGIN
 cp login.py /$HOME
 cp bash.bashrc /$HOME
 cd
-cp /data/data/com.termux/files/home/login.py cd ../usr/etc/
+chmod +x login.py
 cd ../usr/etc
 rm motd
-chmod +x login.py
 cp bash.bashrc /sdcard
 rm bash.bashrc
 cd
@@ -87,7 +86,6 @@ echo -e "==========================================================
 sleep 3.5
 clear
 cp /data/data/com.termux/files/home/bash.bashrc cd ../usr/etc/
-rm login.py
 rm bash.bashrc
 clear
 toilet -f mono12 3 |lolcat
