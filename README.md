@@ -9,6 +9,7 @@ You can install this tool to follow these steps -
 2) bash setup.sh
 
 USERNAME = ARO
+
 PASSWORD = ?
 
 That it your work is done 
